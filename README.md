@@ -3,6 +3,8 @@
 ## Fragen
 - Warum keine Fehlermeldung, wenn das Speichern in `BootStrap.groovy` fehlschlägt? Kann man das Loglevel ändern?
 - Standardmässig alles NOT NULL? Kann man ändern in application.yml (siehe GORM Doku)
+- Warum sehe ich gewisse Attribute in der Liste nicht? Zu viele? Kann man das forcieren, dass die trotzdem kommen? -> Upsi: https://stackoverflow.com/questions/9221799/grails-scaffolding-is-displaying-fewer-columns-than-the-domain
+- ...
 
 ```
 grails create-app ch.so.agi.simi.App
