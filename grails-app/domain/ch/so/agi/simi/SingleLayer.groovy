@@ -7,6 +7,7 @@ class SingleLayer extends SingleActor {
     static hasMany = [facadeLayerSingleLayers: FacadeLayerSingleLayer] 
 
     static constraints = {
+        dataPublished()
         owner nullable: true // temporary
     }
 }

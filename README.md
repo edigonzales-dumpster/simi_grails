@@ -32,3 +32,11 @@ n-m muss aufgelöst wereden, damit die die zusätzlichen Attribute aus `Properti
 ./grailsw create-domain-class FacadeLayerSingleLayer
 ```
 
+```
+./grailsw create-controller SingleLayer
+./grailsw create-controller FacadeLayer
+./grailsw create-controller FacadeLayerSingleLayer
+```
+
+
+
