@@ -2,16 +2,20 @@ package ch.so.agi.simi
 
 abstract class DataProduct {
     String identifier
-    //String title
-    //String synonymous
-    //String description
-    //String keywords
-    //String remarks
-    //boolean inWMS
-    //boolean inWGC
+    String title
+    String synonymous
+    String description
+    String keywords
+    String remarks
+    boolean inWMS
+    boolean inWGC
 
     static constraints = {
-        identifier nullable: true
+        synonymous nullable: true
+        description nullable: true
+        keywords nullable: true
+        remarks nullable: true
+        //identifier nullable: true
         //identifier nullable: false, unique: true
         //inWMS nullable: false
         //inWGC nullable: false

@@ -5,7 +5,7 @@ class FacadeLayerSingleLayer {
     int rank
     int transparency
 
-    //static belongsTo = [facadeLayer: FacadeLayer, singleLayer: SingleLayer]
+    static belongsTo = [facadeLayer: FacadeLayer, singleLayer: SingleLayer]
 
     static constraints = {
         //visibility nullable: false

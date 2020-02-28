@@ -4,9 +4,9 @@ class SingleLayer extends SingleActor {
     String owner // reference... wohin/woher?
     boolean dataPublished
 
-    //static hasMany = [facadeLayerSingleLayers: FacadeLayerSingleLayer] 
+    static hasMany = [facadeLayerSingleLayers: FacadeLayerSingleLayer] 
 
     static constraints = {
-        //dataPublished nullable: false
+        owner nullable: true // temporary
     }
 }

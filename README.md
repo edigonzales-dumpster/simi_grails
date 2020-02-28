@@ -1,5 +1,9 @@
 # simi_grails
 
+## Fragen
+- Warum keine Fehlermeldung, wenn das Speichern in `BootStrap.groovy` fehlschlägt? Kann man das Loglevel ändern?
+- Standardmässig alles NOT NULL? Kann man ändern in application.yml (siehe GORM Doku)
+
 ```
 grails create-app ch.so.agi.simi.App
 ```
