@@ -1,7 +1,7 @@
 # simi_grails
 
 ## Fragen
-- Warum keine Fehlermeldung, wenn das Speichern in `BootStrap.groovy` fehlschlägt? Kann man das Loglevel ändern?
+- Warum keine Fehlermeldung, wenn das Speichern in `BootStrap.groovy` fehlschlägt? Kann man das Loglevel ändern? -> http://docs.grails.org/latest/ref/Domain%20Classes/save.html `failOnError`?
 - Standardmässig alles NOT NULL? Kann man ändern in application.yml (siehe GORM Doku)
 - Warum sehe ich gewisse Attribute in der Liste nicht? Zu viele? Kann man das forcieren, dass die trotzdem kommen? -> Upsi: https://stackoverflow.com/questions/9221799/grails-scaffolding-is-displaying-fewer-columns-than-the-domain
 - ...

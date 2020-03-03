@@ -11,4 +11,8 @@ class FacadeLayerSingleLayer {
         //visibility nullable: false
         //rank nullable: false
     }
+
+    String toString() {
+        singleLayer.identifier
+    }
 }

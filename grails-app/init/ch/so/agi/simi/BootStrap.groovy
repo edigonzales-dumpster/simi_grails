@@ -17,6 +17,8 @@ class BootStrap {
         println singleLayerList
 
 
+        FacadeLayer flGrundbuchplan = new FacadeLayer(identifier: 'ch.so.agi.grundbuchplan_sw', title: 'Grundbuchplan (schwarz-weiss)', inWMS: true, inWGC: true).save()
+
 
     }
     def destroy = {
